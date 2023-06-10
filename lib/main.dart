@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:dice_app/gradient_container.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+   const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello Sidessh!'),
-        ),
+        // backgroundColor: Colors.amber,
+        body: GradientContainer(Color.fromARGB(255, 32, 4, 81),Color.fromARGB(255, 101, 37, 211)),
       ),
     ),
   );
 }
+
+
